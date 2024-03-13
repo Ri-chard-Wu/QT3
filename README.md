@@ -2,7 +2,7 @@
 
 # QT3: A Humanoid Robot Arm
  
-> Video : [test](https://github.com/Ri-chard-Wu/QT3)
+> Video : [QT3: A Humanoid Robot Arm with Armor](https://www.youtube.com/watch?v=ac9aGhzHxdw)
  
 <p align="center">
  <img src="Docs/images/robot.png" alt="" width=100% height=auto>
