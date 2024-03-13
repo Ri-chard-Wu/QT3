@@ -1,9 +1,12 @@
 
 
-
+# QT3: A Humanoid Robot Arm
+ 
+> Video : [test](https://github.com/Ri-chard-Wu/QT3)
+ 
 <p align="center">
- <img src="images/robot.png" alt="" width=100% height=auto>
- <img src="images/dashboard.png" alt="" width=100% height=auto>
+ <img src="Docs/images/robot.png" alt="" width=100% height=auto>
+ <img src="Docs/images/dashboard.png" alt="" width=100% height=auto>
 </p>
 
 
