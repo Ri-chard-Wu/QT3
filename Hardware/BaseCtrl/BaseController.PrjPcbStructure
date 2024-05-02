@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=CAN-POWER-B2B.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CAN-POWER-B2B.SchDoc|FileName=ESP32.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CAN-POWER-B2B.SchDoc|FileName=Ethernet-PHY.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CAN-POWER-B2B.SchDoc|FileName=Power.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN-POWER-B2B.SchDoc|FileName=USB-PROG-UART.SchDoc|SheetNumber=4
