@@ -43,21 +43,24 @@ To run the dashboard with a physical robot, first open `Firmware\esp32WifiWebpag
  <img src="Docs/images/wifi-cfg.png" alt="" width=70% height=auto> 
 </p>
 
+
+
+
+Next, connect the esp32 of your robot to your PC, find the COM port of your esp32, modify the COM port in `run_esp32.bat`. Also, find the ip address of your PC (assume your PC is connected to the same router or in same local area network as the esp32), and enter the ip in `Utils\webpage2string.py` as shown below:
+
+<p align="center">
+ <img src="Docs/images/pc-ip.png" alt="" width=80% height=auto> 
+</p>
+
+ 
+
 Next open esp-idf, and navigate to the directory of this repo. 
 
 <p align="center">
  <img src="Docs/images/open-esp-idf.png" alt="" width=70% height=auto> 
 </p>
 
-
-Next, connect the esp32 of your robot to your PC, find the COM port of your esp32, modify the COM port in `run_esp32.bat`. Also, find the ip address of your PC (assume your PC is connected to the same router or in same local area network as the esp32), and enter the ip in `Utils\webpage2string.py` as shown below:
-
-<p align="center">
- <img src="Docs/images/pc-ip.png" alt="" width=70% height=auto> 
-</p>
-
- 
-Finally, run `run_esp32.bat` to flash the esp32 with the firmware and start the dashboard server:
+then run `run_esp32.bat` to flash the esp32 with the firmware and start the dashboard server:
 
 ```bash
 run_esp32.bat
