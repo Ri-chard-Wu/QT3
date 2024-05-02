@@ -12,7 +12,7 @@
 
 ## Brief
 
-This project includes a robot arm and a dashboard. Warning: The codes are still not very optimized and are still a little bit messy and (potentially) buggy.
+This project includes a robot arm and a dashboard. Warning: The codes are still not very optimized and are still a little bit messy and (potentially) buggy. Be mindful when using the code.
 
 ## Pre-requisites
 
