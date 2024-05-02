@@ -1,0 +1,8 @@
+
+#ifndef WEB_PAGE_CONTENT
+#define WEB_PAGE_CONTENT
+
+char root_web_page[] = "<PAGE_CONTENT>";
+
+
+#endif

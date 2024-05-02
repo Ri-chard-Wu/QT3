@@ -1,0 +1,45 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/sdkconfig'
+-- Found Git: C:/Espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: C:/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "QT3WebPageServer" version: 1e20e1b-dirty
+-- Adding linker script C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.1/components/app_trace C:/Espressif/frameworks/esp-idf-v5.1/components/app_update C:/Espressif/frameworks/esp-idf-v5.1/components/bootloader C:/Espressif/frameworks/esp-idf-v5.1/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.1/components/bt C:/Espressif/frameworks/esp-idf-v5.1/components/cmock C:/Espressif/frameworks/esp-idf-v5.1/components/console C:/Espressif/frameworks/esp-idf-v5.1/components/cxx C:/Espressif/frameworks/esp-idf-v5.1/components/driver C:/Espressif/frameworks/esp-idf-v5.1/components/efuse C:/Espressif/frameworks/esp-idf-v5.1/components/esp-tls C:/Espressif/frameworks/esp-idf-v5.1/components/esp_adc C:/Espressif/frameworks/esp-idf-v5.1/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.1/components/esp_coex C:/Espressif/frameworks/esp-idf-v5.1/components/esp_common C:/Espressif/frameworks/esp-idf-v5.1/components/esp_eth C:/Espressif/frameworks/esp-idf-v5.1/components/esp_event C:/Espressif/frameworks/esp-idf-v5.1/components/esp_gdbstub C:/Espressif/frameworks/esp-idf-v5.1/components/esp_hid C:/Espressif/frameworks/esp-idf-v5.1/components/esp_http_client C:/Espressif/frameworks/esp-idf-v5.1/components/esp_http_server C:/Espressif/frameworks/esp-idf-v5.1/components/esp_https_ota C:/Espressif/frameworks/esp-idf-v5.1/components/esp_https_server C:/Espressif/frameworks/esp-idf-v5.1/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.1/components/esp_lcd C:/Espressif/frameworks/esp-idf-v5.1/components/esp_local_ctrl C:/Espressif/frameworks/esp-idf-v5.1/components/esp_mm C:/Espressif/frameworks/esp-idf-v5.1/components/esp_netif C:/Espressif/frameworks/esp-idf-v5.1/components/esp_netif_stack C:/Espressif/frameworks/esp-idf-v5.1/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.1/components/esp_phy C:/Espressif/frameworks/esp-idf-v5.1/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.1/components/esp_psram C:/Espressif/frameworks/esp-idf-v5.1/components/esp_ringbuf C:/Espressif/frameworks/esp-idf-v5.1/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.1/components/esp_system C:/Espressif/frameworks/esp-idf-v5.1/components/esp_timer C:/Espressif/frameworks/esp-idf-v5.1/components/esp_wifi C:/Espressif/frameworks/esp-idf-v5.1/components/espcoredump C:/Espressif/frameworks/esp-idf-v5.1/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.1/components/fatfs C:/Espressif/frameworks/esp-idf-v5.1/components/freertos C:/Espressif/frameworks/esp-idf-v5.1/components/hal C:/Espressif/frameworks/esp-idf-v5.1/components/heap C:/Espressif/frameworks/esp-idf-v5.1/components/http_parser C:/Espressif/frameworks/esp-idf-v5.1/components/idf_test C:/Espressif/frameworks/esp-idf-v5.1/components/ieee802154 C:/Espressif/frameworks/esp-idf-v5.1/components/json C:/Espressif/frameworks/esp-idf-v5.1/components/log C:/Espressif/frameworks/esp-idf-v5.1/components/lwip C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main C:/Espressif/frameworks/esp-idf-v5.1/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.1/components/mqtt C:/Espressif/frameworks/esp-idf-v5.1/components/newlib C:/Espressif/frameworks/esp-idf-v5.1/components/nvs_flash C:/Espressif/frameworks/esp-idf-v5.1/components/openthread C:/Espressif/frameworks/esp-idf-v5.1/components/partition_table C:/Espressif/frameworks/esp-idf-v5.1/components/perfmon C:/Espressif/frameworks/esp-idf-v5.1/components/protobuf-c C:/Espressif/frameworks/esp-idf-v5.1/components/protocomm C:/Espressif/frameworks/esp-idf-v5.1/components/pthread C:/Espressif/frameworks/esp-idf-v5.1/components/sdmmc C:/Espressif/frameworks/esp-idf-v5.1/components/soc C:/Espressif/frameworks/esp-idf-v5.1/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.1/components/spiffs C:/Espressif/frameworks/esp-idf-v5.1/components/tcp_transport C:/Espressif/frameworks/esp-idf-v5.1/components/ulp C:/Espressif/frameworks/esp-idf-v5.1/components/unity C:/Espressif/frameworks/esp-idf-v5.1/components/usb C:/Espressif/frameworks/esp-idf-v5.1/components/vfs C:/Espressif/frameworks/esp-idf-v5.1/components/wear_levelling C:/Espressif/frameworks/esp-idf-v5.1/components/wifi_provisioning C:/Espressif/frameworks/esp-idf-v5.1/components/wpa_supplicant C:/Espressif/frameworks/esp-idf-v5.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/build

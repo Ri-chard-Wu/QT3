@@ -1,0 +1,80 @@
+
+
+.tableSpacer{
+
+    height: 10px;
+
+}
+
+
+.resizable-table-container{
+
+    --h: 100px;
+
+
+    height: calc(var(--h) * 0.9);
+    /* height: 180px; */
+    width: 98%;
+
+    /* padding: 1% 1%; */
+    padding: 0% 1%;
+    overflow-y: auto;
+    
+    
+    /* background: rgba(36, 36, 36, 0.5); */
+}
+
+.resizable-table{
+    /* box-sizing: border-box;  */
+
+    /* overflow: hidden; */
+    border-collapse:collapse;
+    /* height: 100%; */
+
+    /* height: var(--h); */
+
+    
+    width: 100%;
+
+}
+
+.resizable-table td{ 
+
+    padding:7px 15px;
+    text-align:left; 
+    border:3px solid #cfcfcf;
+    /* border-left:3px solid #cfcfcf; */
+
+    font-size: 15px;
+    color: rgb(255, 255, 255); 
+}
+
+
+
+
+.resizable-table-container thead th{
+    
+    padding:7px 15px;
+    text-align:left; 
+    /* border:3px solid #cfcfcf; */
+    border-left:3px solid #cfcfcf;
+    border-right:3px solid #cfcfcf;
+    
+
+    font-size: 15px;
+    color: rgb(255, 255, 255); 
+
+
+    
+    background: rgb(78, 78, 78);  
+    /* background: rgb(2, 6, 8);   */
+
+    position: sticky; /* make the table heads sticky */
+    top: 0px; /* table head will be placed from the top of the table and sticks to it */
+} 
+ 
+
+/* .resizable-table thead{
+    position: fixed;
+}  */
+

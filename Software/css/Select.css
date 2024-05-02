@@ -1,0 +1,120 @@
+    /*the container must be positioned relative:*/
+
+
+        .selContainer {
+
+            
+            --w: 160px;
+            --h: 10px; 
+            
+            position: absolute;
+            
+            top: 4px;
+            left: 4px;
+
+            width: var(--w);
+            /* font-family: Arial; */
+        }
+
+        .selContainer select {
+            display: none; /*hide original SELECT element:*/ 
+        }
+
+        .selFace {
+
+            letter-spacing: 1.5px;
+
+            background-color: rgb(3, 100, 125);
+
+            /* background-image: linear-gradient(180deg, rgb(49, 122, 141) 0%, 
+                                                rgb(49, 122, 141) 20%, 
+                                                rgb(49, 122, 141) 80%, 
+                                                rgb(49, 122, 141) 100%);               */
+ 
+            height: var(--h); 
+            padding-left: calc(var(--w) * (1/40)); 
+            padding-bottom: calc(var(--h) * (1/1));
+
+            font-family: 'Roboto', sans-serif; 
+        
+            font-size: calc(var(--h) * (8/5));
+            color: rgba(255,255,255,0.75);
+            /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.95); */
+            font-weight: bold; 
+        
+            /* padding: 8px 8px 8px 8px; */
+            border: 1px solid transparent;
+            border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+            cursor: pointer;
+            user-select: none;        
+        }
+
+        /*style the arrow inside the select element:*/
+        .selFace:after {
+            position: absolute;
+            content: "";
+            top: calc(var(--h) * (8/10));
+            right: 10px;
+            width: 0;
+            height: 0;
+
+            border: calc(var(--h) * (8/10)) solid transparent;
+            border-color: #fff transparent transparent transparent;
+        }
+
+        /*point the arrow upwards when the select box is open (active):*/
+        .selArrowActive:after {
+            border-color: transparent transparent #fff transparent;
+            top: 0px;
+        }
+
+        /*style the items (options), including the selected item:*/
+        .selMenu div{
+            /* color: #ffffff;
+            padding: 8px 16px; */
+            border: 1px solid transparent;
+            border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+            cursor: pointer;
+            user-select: none; 
+  
+            height: calc(var(--h) * (1/1)); 
+            padding-left: calc(var(--w) * (1/40)); 
+            padding-bottom: calc(var(--h) * (1/1));
+
+
+            letter-spacing: 1.5px;
+            font-weight: bold; 
+            font-family: 'Roboto', sans-serif; 
+
+            font-size: calc(var(--h) * (8/5));
+            color: rgba(255,255,255,0.75);
+            /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.95); */
+                        
+        }
+
+        /*style items (options):*/
+        .selMenu {
+            position: absolute;
+            /* background-color: rgb(61, 152, 175); */
+            background-color: rgb(55, 98, 109); 
+            /* background-image: linear-gradient(0deg, rgb(88, 121, 128) 0%, rgb(55, 98, 109) 70%); */
+
+            top: 100%;
+            left: 0;
+            right: 0;
+            /* z-index: 99; */
+        }
+
+        /*hide the items when the select box is closed:*/
+        .selMenu-hide {
+            display: none;
+        }
+
+        .selMenu div:hover, .selHighlight {
+            /* background-color: rgba(0, 0, 0, 0.1); */
+            /* background-color: rgb(61, 152, 175); */
+            background-image: linear-gradient(180deg, rgb(70, 174, 200) 0%, 
+                                                rgb(61, 152, 175) 20%, 
+                                                rgb(61, 152, 175) 70%, 
+                                                rgb(70, 174, 200) 100%);             
+        }

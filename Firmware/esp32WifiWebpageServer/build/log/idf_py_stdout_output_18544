@@ -1,0 +1,111 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May  2 2024 09:25:21[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (87) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=25270h (152176) map[0m
+[0;32mI (162) esp_image: segment 1: paddr=00035298 vaddr=3ffb0000 size=060c0h ( 24768) load[0m
+[0;32mI (172) esp_image: segment 2: paddr=0003b360 vaddr=40080000 size=04cb8h ( 19640) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=8d78ch (579468) map[0m
+[0;32mI (390) esp_image: segment 4: paddr=000cd7b4 vaddr=40084cb8 size=10864h ( 67684) load[0m
+[0;32mI (429) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (429) boot: Disabling RNG early entropy source...[0m
+[0;32mI (441) cpu_start: Multicore app[0m
+[0;32mI (441) cpu_start: Pro cpu up.[0m
+[0;32mI (441) cpu_start: Starting app cpu, entry point is 0x4008136c[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (459) cpu_start: Pro cpu start user code[0m
+[0;32mI (459) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (459) cpu_start: Application information:[0m
+[0;32mI (464) cpu_start: Project name:     QT3WebPageServer[0m
+[0;32mI (470) cpu_start: App version:      1e20e1b-dirty[0m
+[0;32mI (475) cpu_start: Compile time:     May  2 2024 09:25:14[0m
+[0;32mI (481) cpu_start: ELF file SHA256:  1db029b061778431...[0m
+[0;32mI (487) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (492) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (497) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (502) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (507) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (514) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (520) heap_init: At 3FFBA328 len 00025CD8 (151 KiB): DRAM[0m
+[0;32mI (526) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (533) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (539) heap_init: At 4009551C len 0000AAE4 (42 KiB): IRAM[0m
+[0;32mI (547) spi_flash: detected chip: gd[0m
+[0;32mI (549) spi_flash: flash io: dio[0m
+[0;33mW (553) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (567) gpio: GPIO[22]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (576) gpio: GPIO[21]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (585) TWAI Master: Driver installed[0m
+[0;32mI (590) TWAI Master: Driver started[0m
+[0;32mI (594) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (604) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (608) app_start: Starting scheduler on CPU1[0m
+mI (608) main_task: Started on CPU0[0m
+[0;32mI (618) main_task: Calling app_main()[0m
+[app_main()] 
+[0;32mI (618) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[app_main()]
+[Main()] 
+[WebPageServer::start()]
+I (2168) wifi:wifi driver task: 3ffc3b6c, prio:23, stack:6656, core=0
+I (2178) wifi:wifi firmware version: b2f1f86
+I (2178) wifi:wifi certification version: v7.0
+I (2178) wifi:config NVS flash: enabled
+I (2188) wifi:config nano formating: disabled
+I (2188) wifi:Init data frame dynamic rx buffer num: 32
+I (2188) wifi:Init management frame dynamic rx buffer num: 32
+I (2198) wifi:Init management short buffer num: 32
+I (2198) wifi:Init dynamic tx buffer num: 32
+I (2208) wifi:Init static rx buffer size: 1600
+I (2208) wifi:Init static rx buffer num: 10
+I (2218) wifi:Init dynamic rx buffer num: 32
+[0;32mI (2218) wifi_init: rx ba win: 6[0m
+[0;32mI (2218) wifi_init: tcpip mbox: 32[0m
+[0;32mI (2228) wifi_init: udp mbox: 6[0m
+[0;32mI (2228) wifi_init: tcp mbox: 6[0m
+[0;32mI (2238) wifi_init: tcp tx win: 5744[0m
+[0;32mI (2238) wifi_init: tcp rx win: 5744[0m
+[0;32mI (2238) wifi_init: tcp mss: 1440[0m
+[0;32mI (2248) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (2248) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2258) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+I (2358) wifi:mode : sta (30:83:98:c5:81:d8)
+I (2368) wifi:enable tsf
+I (2378) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1
+I (2378) wifi:state: init -> auth (b0)
+I (2378) wifi:state: auth -> assoc (0)
+I (2388) wifi:state: assoc -> run (10)
+I (2398) wifi:<ba-add>idx:0 (ifx:0, 74:d0:2b:8e:6b:d4), tid:0, ssn:0, winSize:64
+I (2418) wifi:connected with Richard, aid = 2, channel 1, BW20, bssid = 74:d0:2b:8e:6b:d4
+I (2418) wifi:security: WPA2-PSK, phy: bgn, rssi: -41
+I (2428) wifi:pm start, type: 1
+
+I (2448) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0;32mI (4928) esp_netif_handlers: sta ip: 192.168.1.107, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (4928) espressif: got ip:192.168.1.107[0m
+[0;32mI (4938) main_task: Returned from app_main()[0m
+[0;33mW (308838) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (308838) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m

@@ -1,0 +1,31 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\Richard\Desktop\EMBED\project\RBPJ\open-source-repo\Firmware\esp32WifiWebpageServer\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/LowLevel/startServer.c.obj
+In file included from C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main/LowLevel/startServer.h:12,
+                 from C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main/LowLevel/startServer.c:4:
+C:/Espressif/frameworks/esp-idf-v5.1/components/spi_flash/include/esp_spi_flash.h:6:2: warning: #warning esp_spi_flash.h is deprecated, please use spi_flash_mmap.h instead [-Wcpp]
+    6 | #warning esp_spi_flash.h is deprecated, please use spi_flash_mmap.h instead
+      |  ^~~~~~~
+C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main/LowLevel/startServer.c: In function '_parseGET':
+C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main/LowLevel/startServer.c:34:30: warning: passing argument 1 of 'parseGET' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   34 |     char *resp = parseGET(req->uri);
+      |                           ~~~^~~~~
+C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main/LowLevel/startServer.h:43:29: note: expected 'char *' but argument is of type 'const char *'
+   43 | extern char* parseGET(char *uri);
+      |                       ~~~~~~^~~
+C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main/LowLevel/startServer.c: In function 'connect_wifi':
+C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/main/LowLevel/startServer.c:205:17: warning: unused variable 'bits' [-Wunused-variable]
+  205 |     EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group,
+      |                 ^~~~
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable QT3WebPageServer.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/build/QT3WebPageServer.bin
+[7/7] cmd.exe /C "cd /D C:\Users\Richard\Desktop\EMBED\project\RBPJ\open-source-repo\Firmware\esp32WifiWebpageServer\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/build/partition_table/partition-table.bin C:/Users/Richard/Desktop/EMBED/project/RBPJ/open-source-repo/Firmware/esp32WifiWebpageServer/build/QT3WebPageServer.bin"
+QT3WebPageServer.bin binary size 0xce040 bytes. Smallest app partition is 0x100000 bytes. 0x31fc0 bytes (20%) free.

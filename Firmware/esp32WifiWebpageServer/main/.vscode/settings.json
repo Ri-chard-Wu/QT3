@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "webpageserver.h": "c",
+        "common_inc.h": "c",
+        "xlocale": "cpp",
+        "xlocnum": "cpp",
+        "xstring": "c",
+        "xutility": "cpp",
+        "cstdint": "c",
+        "cstdlib": "cpp",
+        "can.h": "c"
+    }
+}

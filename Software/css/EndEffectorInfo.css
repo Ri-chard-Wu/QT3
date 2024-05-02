@@ -1,0 +1,142 @@
+
+  .properties{
+
+    --left: 0px;
+    --top: 0px;
+    --w: 700px;
+    --h: 600px;
+    --w_bdr: 2px;
+  
+    --w_toolbar: calc(var(--w) - var(--w_bdr)*2);
+    --h_toolbar: 40px;
+  
+    --w_cardTrack: calc(var(--w) - 30px - var(--w_bdr)*2);
+  
+    --w_bdr_card: 1px;
+    --mrg_side_card: 7px;
+    --mrg_TopBot_card: 20px;
+
+    --h_title: 35px;
+
+    --w_card: calc(var(--w_cardTrack) - 2*var(--mrg_side_card) - 2*var(--w_bdr_card));
+    --h_card: calc(var(--w_cardTrack) - 2*var(--mrg_side_card) - 2*var(--w_bdr_card));    
+  
+    
+
+
+    position: absolute;
+   
+    left: var(--left);
+    top: var(--top);  
+    height: var(--h); 
+    width: var(--w);  
+  
+    
+    border-radius: 5px;
+/*    
+    background-image: linear-gradient(135deg, rgba(26, 88, 112, 0.967) 0%, rgba(12, 42, 54, 0.98) 70%);
+
+    box-shadow: -15px 15px 20px rgb(0, 0, 0);
+  */
+
+
+ 
+    font-family: 'Roboto', sans-serif;
+    
+
+    font-size: 15px;
+
+
+
+/* 
+    letter-spacing: 1.5px; 
+    font-size: calc((13/30) * var(--h_title));
+  */
+    /* font-weight: bold;  */
+    
+    /* text-shadow: 0 0 10px rgba(10, 10, 10, 0.95);    */
+   }
+
+
+
+
+
+   .properties .key{
+
+    /* height: 30px;
+    width: 30px; */
+
+    width: 120px;
+
+    /* border-width: 0px  0px 5px 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;   */
+
+    text-align: right;
+
+    /* background: rgba(22, 35, 47, 0.4);  */
+    display:inline-block;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    
+    
+    color: rgba(255,255,255, 1);
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.95);
+   }
+
+
+
+   .properties .values{
+
+    /* top: 50px; */
+    /* height: 30px; */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 48%;
+
+    border-width: 0px  0px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;  
+
+    display:inline-block;
+  
+    letter-spacing: 2px;  
+    /* background: rgba(22`, 35, 47, 0.4);  */
+    color: rgba(255,255,255,0.6);
+   }
+
+
+   .properties .value{
+
+    /* top: 50px; */
+    /* height: 30px; */
+    
+    width: 22%;
+
+    /* margin-right: 38px; */
+
+    /* background: rgba(22, 35, 47, 0.4); */
+    display:inline-block;
+    text-align: left;
+  
+    letter-spacing: 2px;  
+    /* background: rgba(22`, 35, 47, 0.4);  */
+    color: rgba(255,255,255,0.6);
+   }
+ 
+
+
+   .properties .colon{
+
+        /* font-size: 20px; */
+        /* font-family: 'Helvetica', sans-serif; */
+       
+        display:inline-block;
+        color: rgba(255,255,255,0.8);
+        /* width: 100px; */
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 40px;
+        text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.95);
+
+   }

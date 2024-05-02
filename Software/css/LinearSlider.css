@@ -1,0 +1,137 @@
+
+@import url('https://fonts.cdnfonts.com/css/seven-segment');
+ 
+
+.linear-slider{
+ 
+    --n: 20;
+    --sp: 12px;
+
+    --w: calc((var(--n) ) * var(--sp));
+    --h: 24px;
+
+    --w_blk: 9px;
+    /* --w_blk: calc(var(--sp) * (9/12)); */
+    --h_blk: calc(var(--h)*19/24);
+
+
+
+    position: absolute;
+    width: var(--w);
+    height: var(--h);
+    /* top: 10px;
+    left: 100px; */
+
+    font-family: 'Seven Segment', sans-serif;
+    background-color: rgb(15, 69, 91);
+
+    border-radius: 3px;
+
+  
+   box-shadow:  -1px -1px 1px rgb(141, 141, 141) inset,
+                        1px 1px 1px rgb(144, 144, 144),
+
+                        1px 1px 1px rgb(33, 33, 33) inset,
+                        -1px -1px 1px rgb(42, 42, 42);
+ }
+  
+
+ .linear-slider .name{
+  
+    position: absolute;
+    width: 25px; 
+    height: var(--h);
+    top: 0px;
+    left: -25px;
+
+    /* background: rgb(238, 6, 6); */
+    
+    /* font-family: 'Roboto', sans-serif;   */
+    font-size: calc(var(--h)*0.7);  
+    text-align: left;
+ 
+    /* display: inline-block; */
+    font-weight: bold;
+    /* letter-spacing: 2px;  */
+     
+    color: rgba(255,255,255, 0.8);
+    /* text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.95); */
+}
+
+
+.linear-slider .value{
+  
+    position: absolute;
+    width: 70px; 
+    height: var(--h);
+    top: 0px;
+    left: calc(var(--w) * 1.1);
+
+    /* background: rgb(238, 6, 6); */
+    
+    /* font-family: 'Roboto', sans-serif;   */
+    font-size: calc(var(--h)*0.7);  
+    text-align: left;
+ 
+    /* display: inline-block; */
+    font-weight: bold;
+
+    /* letter-spacing: 2px;  */
+    
+    color: rgba(255,255,255, 0.8);
+    /* text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.95); */
+}
+
+
+.linear-slider .value span{
+   
+    font-size: calc(var(--h)*0.5);   
+}
+
+
+.linear-slider .block{
+    position: absolute;
+    width: var(--w_blk);
+    height: var(--h_blk);
+
+    
+    top: calc((var(--h) - var(--h_blk))/2);
+    /* transform-origin: 0px calc(var(--d)/2); */
+    
+    /* box-shadow:  3px 3px 3px rgb(0, 9, 255)  ; */
+     
+
+    box-shadow:  3px 3px 3px rgb(0, 0, 0) inset,
+    -0.2px -0.2px 2px rgb(0, 0, 0);
+     
+     /* -0.5px -0.5px 1px rgb(0, 0, 0) inset; */
+ 
+     border-radius: 1px;
+
+     background: rgb(23, 23, 23);
+    /* 0 0.25rem 0.5rem 0 rgb(161, 160, 161) inset; */
+}
+
+
+/* 
+.slider .rating h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(var(--d)*0.12);
+    font-weight: bold;
+    text-align: center;
+    line-height: calc(var(--d)*0.15);
+    color: rgba(255,255,255,0.75);
+    text-shadow: 0 0 10px rgba(0,255,255,0.95);    
+}
+
+
+.slider .rating h2 span{
+    font-size: calc(var(--d)*0.22);
+    font-weight: bold;
+    
+} */
+
+ 

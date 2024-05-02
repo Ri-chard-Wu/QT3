@@ -1,0 +1,133 @@
+ 
+ 
+  
+  .user-mode-container{
+    --left: 920px;
+    --top: 700px;
+    --w: 800px;
+    --h: 100px;
+    --w_bdr: 2px;
+  
+    --w_toolbar: calc(var(--w) - var(--w_bdr)*2);
+    --h_toolbar: 40px;
+  
+    --w_cardTrack: calc(var(--w) - 30px - var(--w_bdr)*2);
+  
+    --w_bdr_card: 1px;
+    --mrg_side_card: 7px;
+    --mrg_TopBot_card: 20px;
+
+    --h_title: 35px;
+
+    --w_card: calc(var(--w_cardTrack) - 2*var(--mrg_side_card) - 2*var(--w_bdr_card));
+    --h_card: calc(var(--w_cardTrack) - 2*var(--mrg_side_card) - 2*var(--w_bdr_card));    
+  
+    
+
+
+    position: absolute;
+   
+    /* left: var(--left);
+    top: var(--top);   
+    width: var(--w);  
+    */
+    
+    width: 650px;  
+    left: calc(50% - 325px);
+    bottom: 21.5%; 
+    /* width: 35%;   */
+
+    height: var(--h);  
+    
+    border-radius: 10px;
+
+    /* padding: 10px; */
+    /* line-height: 0px; */
+   
+    /* rgba(29, 28, 29, 0.5), rgba(174, 173, 174, 0.5) */
+    /* background-image: linear-gradient(135deg, rgba(26, 88, 112, 0.967) 0%, rgba(12, 42, 54, 0.98) 70%); */
+    
+    
+    /* background: rgba(255, 255, 255, 0.5); */
+
+    /* background: rgba(0, 0, 0, 0.5);
+    box-shadow: -3px 3px 6px rgb(0, 0, 0); */
+ 
+   }
+
+   
+   .user-mode-container .mode-button{ 
+        /* position: absolute; */
+        position: relative;
+        display: inline-block;
+        /* left: 50px;
+        top: 10px;   */
+
+        
+        height:100px; 
+        width: 160px;  
+
+        /* margin-left: 2px;
+        margin-right: 2px; */
+
+        /* border: 1px solid rgba(86, 90, 90, 0.5);  */
+        
+
+    } 
+
+    .user-mode-container .highlight-box{
+      position: absolute;
+      left: 0px;
+      background: linear-gradient(to top, rgba(255, 255, 255, 0.918) 1px, transparent 1px),
+      linear-gradient(0deg, rgba(116, 209, 246, 0.4) 0%, rgba(12, 42, 54, 0) 50%);
+    }
+  
+
+    .user-mode-container .mode-button .mode-button-text{
+      position: absolute;
+      
+      left: -50%;
+
+      bottom: 0%;  
+      height: 35%; 
+      width: 200%; 
+
+      text-align: center;
+      /* text-align: justify; */
+      
+      /* color */
+      /* background: rgba(255, 255, 255, 0.5); */
+
+      /* font-family: 'Roboto', sans-serif; */
+      
+      font-size: 18px;
+      letter-spacing: 3px; 
+      font-weight: bold;
+
+      transform:scale(0.6,1);
+      -webkit-transform: scale(0.6, 1);  
+    }
+
+    .user-mode-container .mode-button .mode-button-icon{
+      position: absolute;
+      
+      /* background: rgba(255, 255, 255, 0.5); */
+      
+
+      top: 8%;  
+      height: 70%; 
+      width: 100%; 
+  
+    }
+    
+    .user-mode-container .mode-button .mode-button-icon img{
+       
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50px;
+      height: 50px;
+    }
+
+
+ 
